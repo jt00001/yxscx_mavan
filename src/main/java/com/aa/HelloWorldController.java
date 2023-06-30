@@ -10,5 +10,11 @@ public class HelloWorldController {
     @RequestMapping("/test")
     public void test(){
         System.out.print("测试");
+        System.out.print("测试123");
+    }
+
+    public String returnStr(){
+        final String testStr = "hello world";
+        return testStr;
     }
 }
